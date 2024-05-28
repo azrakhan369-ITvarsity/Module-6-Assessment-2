@@ -1,0 +1,346 @@
+/* ***************************************************** */
+/* UNIVERSAL STYLES                                      */
+/* ***************************************************** */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'raleway' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+    background-color: #121619 ;
+}
+
+/* ***************************************************** */
+/* MENU                                                  */
+/* ***************************************************** */
+
+#menu{
+    background-color: #121619;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: white;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #76877d;
+}
+
+/* ***************************************************** */
+/* BANNER                                                */
+/* ***************************************************** */
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 400px;
+}
+
+/* ***************************************************** */
+/* HEADER                                                */
+/* ***************************************************** */
+
+#header{
+    padding: 80px 0 40px 0;
+    background-color: #333333;
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: white;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+/* ***************************************************** */
+/* INFORMATION                                           */     
+/* ***************************************************** */
+
+a.info-box{
+    text-decoration : none;
+    background      : rgba(255, 255, 255, .8);
+    width           : 90%;
+    height          : 90px;
+    margin-top      : 12px;
+    padding         :1px;
+}
+
+.info-box img{
+    height : 50px;
+    margin : 10px;
+    float  : centre; 
+}
+
+.info-box h2{
+    padding : 0;
+    margin-bottom :0;
+    width : 90%;
+    color : #572800;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.info-box p{
+    padding : 0;
+    width   : 90%;
+    color   : white;
+    text-align: center;
+}
+
+#cars img{
+    width:350px;
+    height:175px;
+    float: left;
+}
+
+#cars2 img{
+    width:350px;
+    height:175px;
+    float: left;
+}
+
+#cars3 img{
+    width:350px;
+    height:175px;
+    float: left;
+}
+
+#cars4 img{
+    width:350px;
+    height:175px;
+    float: left;
+}
+
+#cars5 img{
+    width:350px;
+    height:175px;
+    float: left;
+}
+
+#cars6 img{
+    width:350px;
+    height:175px;
+    float: left;
+}
+
+#cars{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border:5px solid rgba(229, 230, 210, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(210, 250, 247, 0.37);
+    text-align: center;
+    text-shadow: 0 3px 0 #000000ef, 0 2px 8px #0a0a0a, 0 -3px 35px #999999ec;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #fffffff8;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #cars2{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border:5px solid rgba(229, 230, 210, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(210, 250, 247, 0.37);
+    text-align: center;
+    text-shadow: 0 3px 0 #000000ef, 0 2px 8px #0a0a0a, 0 -3px 35px #999999ec;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #fffffff8;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #cars3{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border:5px solid rgba(229, 230, 210, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(210, 250, 247, 0.37);
+    text-align: center;
+    text-shadow: 0 3px 0 #000000ef, 0 2px 8px #0a0a0a, 0 -3px 35px #999999ec;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #fffffff8;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #cars4{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border:5px solid rgba(229, 230, 210, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(210, 250, 247, 0.37);
+    text-align: center;
+    text-shadow: 0 3px 0 #000000ef, 0 2px 8px #0a0a0a, 0 -3px 35px #999999ec;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #fffffff8;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #cars5{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border:5px solid rgba(229, 230, 210, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(210, 250, 247, 0.37);
+    text-align: center;
+    text-shadow: 0 3px 0 #000000ef, 0 2px 8px #0a0a0a, 0 -3px 35px #999999ec;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #fffffff8;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #cars6{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border:5px solid rgba(229, 230, 210, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(210, 250, 247, 0.37);
+    text-align: center;
+    text-shadow: 0 3px 0 #000000ef, 0 2px 8px #0a0a0a, 0 -3px 35px #999999ec;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: #fffffff8;
+    font-size: 20px;
+    width: 100%;
+
+  }
+
+/* ***************************************************** */
+/* GRID LAYOUT                                           */              
+/* ***************************************************** */
+
+
+
+/* ***************************************************** */
+/* INDIVIDUAL CAR WEBPAGE                                */              
+/* ***************************************************** */
+
+#maincar {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the image */
+#maincar img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+/* Style for the heading */
+#maincar h3 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the list */
+#maincar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#maincar ul li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    display: block;
+}
+
+#maincar ul li:last-child {
+    border-bottom: none;
+}
+
+/* Bold styling for the list labels */
+#maincar ul li b {
+    color: #000;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
